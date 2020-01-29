@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tabbed">
+
+     <fragment
+        android:id="@+id/nav_tabbed"
+        android:name="com.example.fceytentusmanos.fragment_tabbed"
+        android:label="La FCE en tus manos"
+        tools:layout="@layout/fragment_tabbed"/>
+     <fragment
+         android:id="@+id/nav_carreras"
+         android:name="com.example.fceytentusmanos.Carreras.Carreras"
+         android:label="La FCE en tus manos"
+         tools:layout="@layout/carreras_fragment"/>
+     <fragment
+         android:id="@+id/nav_rs"
+         android:name="com.example.fceytentusmanos.RedesSociales.RedesSociales"
+         android:label="La FCE en tus manos"
+         tools:layout="@layout/redes_sociales_fragment"/>
+     <fragment
+         android:id="@+id/nav_cm"
+         android:name="com.example.fceytentusmanos.Comentarios.Comentarios"
+         android:label="La FCE en tus manos"
+         tools:layout="@layout/comentarios_fragment"/>
+     <fragment
+         android:id="@+id/nav_se"
+         android:name="com.example.fceytentusmanos.fragment_sesion"
+         android:label="La FCE en tus manos"
+         tools:layout="@layout/fragment_sesion"/>
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tabbed"
+            android:title="Institucional" />
+        <item
+            android:id="@+id/nav_carreras"
+            android:title="Carreras" />
+        <item
+            android:id="@+id/nav_rs"
+            android:title="Redes Sociales" />
+        <item
+            android:id="@+id/nav_cm"
+            android:title="Comentarios" />
+        <item
+            android:id="@+id/nav_se"
+            android:title="Iniciar Sesion" />
+    </group>
+
+</menu>

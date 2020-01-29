@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_sesion">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_Facultad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/unse" />
+
+            <TextView
+                android:id="@+id/tv_nombreCarreras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Iniciar Sesion"
+                android:textSize="36sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+
+            <EditText
+                android:id="@+id/nomUsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nombre de Usuario"
+                android:inputType="textPersonName"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/contUsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Contrasenia"
+                android:inputType="text|textPassword"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cRecor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recordarme" />
+
+            <Button
+                    android:id="@+id/btnSes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iniciar Sesion"
+                    android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

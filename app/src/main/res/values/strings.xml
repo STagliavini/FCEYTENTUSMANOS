@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FCEYT en tus manos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fce">FCE</string>
+    <string name="autoridades">Autoridades</string>
+    <string name="dptos">Dptos</string>
+    <string name="dutiles">Datos Utiles</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="asiu">Acceso al SIU</string>
+    <string name="txt_Carreras">CARRERAS</string>
+    <string name="txt_NombreCarrera">Nombre de la carrera:</string>
+    <string name="txt_Departamento">Departamento:</string>
+    <string name="txt_Duracion">Duracion:</string>
+    <string name="txt_buscador">Buscar carrera por nombre</string>
+    <string name="txt_PerfilPrueba">El Técnico Universitario en Organización y Control de la Producción tiene:\\nConocimientos básicos del contexto teórico soporte de la ciencia aplicada, la técnica y la tecnología.\\nConocimientos básicos de las tecnologías de aplicación en el campo electromecánico.\\nConocimientos básicos de la disciplina de la ingeniería de producción como integración de los factores que concurren al conjunto productivo.\\nHabilidades y destrezas para la aplicación práctica de los conocimientos.\\nActitud crítica e innovadora frente a problemas técnicos y cambios tecnológicos.\\nActitud de compromiso hacia el comportamiento ético y la preservación del medio ambiente.</string>
+    <string name="gravity_Center">center</string>
+    <string name="txt_perfilProfesional">Perfil profesional de la carrera:</string>
+    <string name="txt_TituloRedesSociales">REDES SOCIALES</string>
+    <string name="txt_Instagram">Instagram</string>
+    <string name="txt_Facebook">Facebook</string>
+    <string name="txt_twitter">Twitter</string>
+    <string name="txt_RedesSocialesTitle">Redes sociales</string>
+    <string name="tv_HazComentario">Envianos un mensaje</string>
+    <string name="txt_Contacto">Contacto</string>
+    <string name="txt_NombreComentario">Nombre completo</string>
+    <string name="txt_emailComentario">Email</string>
+    <string name="txt_MensajeComentario">Mensaje</string>
+    <string name="txt_botonEnviarComentario">Enviar</string>
+    <string name="txt_ComentariosNav">Comentarios</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
